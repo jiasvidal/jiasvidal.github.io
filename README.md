@@ -8,7 +8,7 @@ A personal portfolio built with HTML, CSS, and JavaScript for GitHub Pages. All 
 2. Open [your GitHub repository](https://github.com/jiasvidal/jiasvidal.github.io).
 3. Choose **Add file → Upload files**.
 4. Drag **everything inside the extracted folder**, including the entire `assets` folder, onto GitHub. Upload the extracted contents, not the ZIP or the outer folder. Uploading files with the same names updates those files.
-5. Enter `Update portfolio with resume, photo, and contact links` as the commit message and click **Commit changes**.
+5. Enter `Add tested Power Automate project case study` as the commit message and click **Commit changes**.
 6. Wait for publishing to complete, then visit [your portfolio](https://jiasvidal.github.io/). Use **Ctrl + Shift + R** if you see the older version. Check the repository's **Actions** tab if publishing fails.
 
 Your existing GitHub Pages settings can stay as they are. This version uses one complete stylesheet, `portfolio.css`, with a versioned link so older cached styles are not reused. Upload `index.html`, `portfolio.css`, and the new portrait together. Old `styles.css`, `refinements.css`, and `jias-vidal.jpg` files already on GitHub are unused by this version and do not affect it.
@@ -24,7 +24,7 @@ Your existing GitHub Pages settings can stay as they are. This version uses one 
 - UiPath Seasonal Hold savings of **347+ hours annually, projected**.
 - The original uploaded one-page résumé, with its formatting and content unchanged.
 
-SQL is described as coursework and UiPath as training. The Google Analytics certification is listed without an unverified renewal or expiration date. The future Power Automate demo remains a clearly marked placeholder.
+SQL is described as coursework and UiPath as training. The Google Analytics certification is listed without an unverified renewal or expiration date. The Power Automate project now links to a completed case study with actual demo email screenshots.
 
 ## Preview on your computer
 
@@ -44,7 +44,7 @@ These steps follow [GitHub's Pages quickstart](https://docs.github.com/en/pages/
 
 Edit the quoted values in `site-config.js` for LinkedIn, GitHub, and public email. Profile URLs must begin with `https://`. The contact links are also present in `index.html` for visitors with JavaScript disabled; update those matching links when changing a profile. Replace the PDF if résumé contact details change; `resume.html` opens that PDF.
 
-## Add the future Power Automate demo
+## Optional future interactive demo link
 
 1. Create a public demo page, form, or demonstration video using sample data.
 2. In `site-config.js`, find `demo` and replace the empty `url` value with the public `https://` URL.
@@ -72,3 +72,17 @@ To replace the PDF or photograph, keep the same filename. To edit career details
 ## Verification
 
 Checked HTML structure, local files, section anchors, JavaScript syntax, and ZIP integrity. Menu and demo-link behavior were checked separately. The original PDF was visually reviewed and its unchanged copy verified by matching file hashes. The local browser preview was blocked by the browser policy, so the website has not had a browser-based visual review.
+
+## Aged Ticket Reporter case study
+
+`aged-ticket-reporter.html` is linked from the third project card. `project.css` styles the case study; `assets/aged-ticket/` contains the actual demo screenshots, fictional workbook, setup guide, and downloadable ZIP kit. Upload these new files and folders along with the updated `index.html`. The original résumé PDF and portrait are unchanged.
+
+The page documents a manual cloud flow tested with 12 fictional tickets, four owners, three emails delivered to Jias’s own inbox, and Sam’s empty report skipped. The work-project savings of approximately 3–5 hours/week are explicitly separate from these demo results. The website presents evidence and downloads; visiting it does not run or email from the flow.
+
+### Add a video later
+
+Record a 60–90 second walkthrough of the fictional workbook, main flow steps, manual run, and delivered report. Upload the recording to your preferred public video service. In `aged-ticket-reporter.html`, find the `FUTURE VIDEO` comment and replace it with a descriptive link to the recording. No video link is displayed until one exists.
+
+### Check after publishing
+
+Open the homepage, select View project on Aged Ticket Reporter, expand the additional reports, and check the workbook, guide, and ZIP downloads. Verify the portrait and original résumé still load. The site needs no build step.

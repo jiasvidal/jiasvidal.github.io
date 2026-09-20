@@ -5,7 +5,7 @@ window.PORTFOLIO_CONFIG = {
   github: "https://github.com/jiasvidal",
   email: "jiasvidal@gmail.com",
   demo: {
-    url: "",    // PLACEHOLDER: the future public Power Automate demo URL
+    url: "",    // PLACEHOLDER: optional future interactive demo URL; case study already linked in index.html
     title: "Power Automate demo",
     description: "A future interactive demonstration using sample support tickets. See how automation can help a team manage its queue."
   }

@@ -11,13 +11,13 @@ A personal portfolio built with HTML, CSS, and JavaScript for GitHub Pages. All 
 5. Enter `Update portfolio with resume, photo, and contact links` as the commit message and click **Commit changes**.
 6. Wait for publishing to complete, then visit [your portfolio](https://jiasvidal.github.io/). Use **Ctrl + Shift + R** if you see the older version. Check the repository's **Actions** tab if publishing fails.
 
-Your existing GitHub Pages settings can stay as they are.
+Your existing GitHub Pages settings can stay as they are. This version uses one complete stylesheet, `portfolio.css`, with a versioned link so older cached styles are not reused. Upload `index.html`, `portfolio.css`, and the new portrait together. Old `styles.css`, `refinements.css`, and `jias-vidal.jpg` files already on GitHub are unused by this version and do not affect it.
 
 ## What is personalized
 
 - Profile photo, Alpharetta location, LinkedIn profile, GitHub profile, and public email.
 - Current Fiserv role and completed Multiverse Digital Business Accelerator apprenticeship.
-- Earlier Starbucks and Crawford & Company experience.
+- A focused website with Fiserv and apprenticeship experience; earlier roles remain in the original résumé.
 - Data Analytics degree in progress, with 65 completed credit hours as supplied in the résumé.
 - Data, automation, cybersecurity, and IT training from the supplied résumé, plus the previously confirmed IBM/Coursera SQL course.
 - Power Automate savings of approximately **3–5 hours per week**, confirmed by Jias for this update.
@@ -59,13 +59,12 @@ The portfolio does not execute a Power Automate flow. It provides a place to lin
 | File | Purpose |
 | --- | --- |
 | `index.html` | Main portfolio |
-| `styles.css` | Base layout and colors |
-| `refinements.css` | Portrait, experience, training, and responsive details |
+| `portfolio.css` | All typography, spacing, layout, and responsive styles |
 | `site-config.js` | Contact and future demo settings |
 | `script.js` | Mobile menu and configured links |
 | `resume.html` | Opens the original résumé PDF |
 | `assets/jias-vidal-resume.pdf` | Original uploaded one-page résumé |
-| `assets/jias-vidal.jpg` | Supplied profile photograph |
+| `assets/jias-vidal-portrait.png` | New supplied professional portrait |
 | `assets/favicon.svg` | Browser tab icon |
 
 To replace the PDF or photograph, keep the same filename. To edit career details, update the portfolio and replace the PDF with your preferred revised résumé.

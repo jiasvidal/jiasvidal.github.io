@@ -1,9 +1,9 @@
 /* Edit the quoted values below to connect your profiles and future demo.
    Leave an empty string when a link is not ready. Never put passwords or keys here. */
 window.PORTFOLIO_CONFIG = {
-  linkedin: "", // PLACEHOLDER: your full https://www.linkedin.com/in/... URL
-  github: "",   // PLACEHOLDER: your full https://github.com/... URL
-  email: "",    // PLACEHOLDER: your public contact email
+  linkedin: "https://www.linkedin.com/in/jias-vidal-97a080161/",
+  github: "https://github.com/jiasvidal",
+  email: "jiasvidal@gmail.com",
   demo: {
     url: "",    // PLACEHOLDER: the future public Power Automate demo URL
     title: "Power Automate demo",

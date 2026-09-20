@@ -1,4 +1,32 @@
 /* Layout refinements, kept separate so the visual theme is easy to change. */
+.profile-card { margin:0; overflow:hidden; border:1px solid #ffffff30; border-radius:9px; background:#1b2a3d; box-shadow:0 20px 65px #0003; }
+.profile-image { height:445px; overflow:hidden; }
+.profile-image img { display:block; width:100%; height:100%; object-fit:cover; object-position:50% 24%; }
+.profile-card figcaption { padding:20px 22px; display:flex; align-items:center; justify-content:space-between; gap:15px; }
+.profile-card figcaption div { display:flex; flex-direction:column; }
+.profile-card figcaption strong { font-size:17px; }
+.profile-card figcaption div span { font-size:12px; color:#c2d1db; }
+.portrait-tag { font-size:9px; color:var(--mint); max-width:105px; text-align:right; letter-spacing:.06em; }
+.experience-card + .experience-card { margin-top:18px; }
+.earlier-experience { display:grid; grid-template-columns:1fr 1fr; gap:22px; margin-top:25px; }
+.earlier-experience article { padding:28px; border:1px solid #d3ddd4; border-radius:7px; }
+.earlier-experience h3 { font-size:23px; margin-bottom:4px; }
+.earlier-experience .company { margin-bottom:12px; }
+.earlier-experience p:last-child { font-size:14px; color:#58676b; margin:0; }
+.experience-date { font-size:11px; color:#596d62; }
+.training-heading { margin-top:64px; margin-bottom:28px; }
+.training-heading h3 { font-size:30px; }
+.training-grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:24px; }
+.training-card { padding:25px; background:#f5f7f4; border-top:3px solid #acd3bc; border-radius:3px; }
+.training-card h4 { font-size:17px; margin:0 0 23px; }
+.training-card ul { list-style:none; margin:0; padding:0; }
+.training-card li { margin:0 0 19px; }
+.training-card li:last-child { margin-bottom:0; }
+.training-card strong { display:block; font-size:13px; line-height:1.5; }
+.training-card span,.training-card p { font-size:12px; line-height:1.7; color:#5e6c73; }
+.training-card p { margin:17px 0 0; }
+@media(max-width:900px) { .profile-card { max-width:500px; width:100%; } .profile-image { height:460px; } .training-grid { grid-template-columns:1fr; } }
+@media(max-width:700px) { .profile-image { height:390px; } .earlier-experience { grid-template-columns:1fr; } .profile-card figcaption { padding:16px 20px; } }
 .brand-mark { display:flex; align-items:center; justify-content:center; }
 .brand-dot { display:inline; }
 .hero-grid { grid-template-columns:1.3fr .8fr; gap:70px; min-height:630px; }
